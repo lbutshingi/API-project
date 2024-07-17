@@ -14,11 +14,11 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Routes
-app.use('/api', routes); // Assuming your routes are defined under '/api'
+app.use('/api', routes); 
 
 // Default route handler
 app.get('/', (req, res) => {
-  res.send('Welcome to the API!'); // Replace with your desired default response
+  res.send('Welcome to the API!'); 
 });
 
 // Start the server
